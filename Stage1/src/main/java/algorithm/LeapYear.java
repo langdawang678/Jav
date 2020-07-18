@@ -1,7 +1,7 @@
 package algorithm;
 
 import java.util.Scanner;
-public class Year{
+public class LeapYear {
     public static void main(String[] a){
         Scanner sc=new Scanner(System.in);
         System.out.println("输入年份");

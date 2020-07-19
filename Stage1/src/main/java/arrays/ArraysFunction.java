@@ -1,4 +1,4 @@
-package ArraysDemo;
+package arrays;
 /*
 1.Arrays.sort(arr)排序
 2.Arrays.toString(arr)

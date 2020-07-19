@@ -1,4 +1,4 @@
-package collectiondemo;/*集合在遍历的同时操作，需要使用迭代器，而非其他遍历
+package collection;/*集合在遍历的同时操作，需要使用迭代器，而非其他遍历
  * 1先生成迭代对象it，
  * 2再while迭代对象有hasNext()，
  * 3再用next()方法获取对象，

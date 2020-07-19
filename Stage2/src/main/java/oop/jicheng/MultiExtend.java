@@ -1,4 +1,4 @@
-package oopextends;
+package oop.jicheng;
 //OOP-¶à²ã¼Ì³Ð
 class Parent1{
     Parent1(String s){

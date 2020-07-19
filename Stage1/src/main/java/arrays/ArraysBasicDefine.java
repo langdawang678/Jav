@@ -1,4 +1,4 @@
-package ArraysDemo;
+package arrays;
 import java.util.Arrays;
 
 public class ArraysBasicDefine {
@@ -21,6 +21,8 @@ public class ArraysBasicDefine {
         System.out.println(Arrays.toString(num1));
         System.out.println(Arrays.toString(num2));
         System.out.println(Arrays.toString(num3));
-        System.out.println(Arrays.toString(score3));
+        for (float x :score3) {
+            System.out.println("for each循环:"+x);
+        }
     }
 }

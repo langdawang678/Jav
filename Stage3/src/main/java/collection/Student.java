@@ -1,4 +1,4 @@
-package collectiondemo;
+package collection;
 
 //用于Map中建新对象
 //先有数据Bean（private属性）

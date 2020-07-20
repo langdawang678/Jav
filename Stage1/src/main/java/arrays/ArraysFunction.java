@@ -8,6 +8,8 @@ package arrays;
 6.System.arrayCopy(原数组，原数组开始位置，目标数组，目标数组开始位置，要copy进入的长度) //了解即可
  */
 import java.util.Arrays;
+import java.util.List;
+
 public class ArraysFunction {
     public static void main(String[] args) {
         int[] num1 = {12,11,13,18,14,55,99};
@@ -41,5 +43,10 @@ public class ArraysFunction {
         int[] num11 = {10,11,12,13,14,15,16};
         System.arraycopy(num10,2,num11,0,3);
         System.out.println(Arrays.toString(num11));//[2, 3, 4, 13, 14, 15, 16]
+
+        List list = Arrays.asList(num11);
+        for (Object x:list){
+            System.out.println(x);
+        }
     }
 }

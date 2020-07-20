@@ -7,8 +7,8 @@ public class RunnableDemo {
     	Thread thread1 = new Thread(runnableDemo1); //public Thread(Runnable target) 
     	thread1.start();
     	
-    	//方式2，也可由用匿名对象直接传入,注意后面的{}，
-        Thread thread2 = new Thread(new RunnableDemo1() {});
+    	//方式2，也可由用匿名对象直接传入
+        Thread thread2 = new Thread(new RunnableDemo1());
         thread2.start();
         thread2.run();//run和start的 区别
     }
@@ -20,3 +20,5 @@ class RunnableDemo1 implements Runnable{
         System.out.println("实现Runnable的run()方法");
     }
 }
+
+

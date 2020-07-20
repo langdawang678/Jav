@@ -1,4 +1,6 @@
-package collection;/*集合在遍历的同时操作，需要使用迭代器，而非其他遍历
+package collection;
+/*集合遍历需要使用迭代器Iterator，而非其他遍历。
+因为不需要知道集合的内部结构。
  * 1先生成迭代对象it，
  * 2再while迭代对象有hasNext()，
  * 3再用next()方法获取对象，
@@ -15,11 +17,11 @@ public class IteratorDemo {
 		list.add("字符串");
 		list.add(null);
 		System.out.println(list);
-		Iterator<String> it = list.iterator();
-		while (it.hasNext()) {
-			Object element = it.next();
+		Iterator<String> iterator = list.iterator();
+		while (iterator.hasNext()) {
+			Object element = iterator.next();
 			if (element == null) {
-				it.remove();
+				iterator.remove();
 			}	
 		}
 		System.out.println(list);

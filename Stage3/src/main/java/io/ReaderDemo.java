@@ -7,7 +7,7 @@ import java.io.IOException;
 public class ReaderDemo {
     public static void main(String[] args) throws IOException {
 //        FileReader fr = new FileReader("/Users/chenxuanhuai/Desktop/error.txt");
-        FileReader fr = new FileReader("D:/error.txt");
+        FileReader fr = new FileReader("./error.txt");
         
         //单个
 //        int ch = fr.read();//读取一个字符

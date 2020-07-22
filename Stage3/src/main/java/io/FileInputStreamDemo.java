@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class BasicStream {
+public class FileInputStreamDemo {
     public static void main(String[] args) throws IOException {
 //        FileInputStream fis = new FileInputStream("/Users/chenxuanhuai/Desktop/error.txt");
     	FileInputStream fis = new FileInputStream("D:/error.txt");
